@@ -1,0 +1,30 @@
+{
+  "name": "sfi_tap",
+  "version": "1.0.0",
+  "description": "\"API CRUD del proyecto de software\"",
+  "main": "App.js",
+  "scripts": {
+    "start": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krlos1223/API_CRUD_sfi_tap.git"
+  },
+  "keywords": [
+    "CRUD"
+  ],
+  "author": "Carlos Andres Piedrahita Sampedro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krlos1223/API_CRUD_sfi_tap/issues"
+  },
+  "homepage": "https://github.com/Krlos1223/API_CRUD_sfi_tap#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3"
+  }
+}
